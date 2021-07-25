@@ -92,6 +92,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.11.7-x64-mingw32)
       racc (~> 1.4)
+    pg (1.2.3)
+    pg (1.2.3-x64-mingw32)
     puma (5.3.2)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -135,7 +137,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     thor (1.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -155,11 +156,11 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   jwt_sessions (~> 2.3)
+  pg
   puma (~> 5.0)
   rack-cors
   rails (~> 6.1.4)
   redis (~> 4.1)
-  sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
