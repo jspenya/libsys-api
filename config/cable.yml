@@ -6,5 +6,5 @@ test:
 
 production:
   adapter: redis
-  url: rediss://default:fvv4ltsmmhvryjvc@db-redis-nyc3-50623-do-user-834598-0.b.db.ondigitalocean.com:25061
+  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
   channel_prefix: librarysystem_back_production
