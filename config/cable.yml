@@ -6,5 +6,5 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV["REDISTOGO_URL"] %>
+  url: rediss://default:fvv4ltsmmhvryjvc@db-redis-nyc3-50623-do-user-834598-0.b.db.ondigitalocean.com:25061
   channel_prefix: librarysystem_back_production
